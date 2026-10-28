@@ -1,0 +1,39 @@
+section,name,metric,value
+3.2,minigpt_v1_baseline_vocab8000_ctx64_L4,val_loss,5.20366096496582
+3.2,minigpt_v1_baseline_vocab8000_ctx64_L4,val_loss_per_char,1.6109663484533072
+3.2,minigpt_v1_baseline_vocab8000_ctx64_L4,n_params,2856000.0
+3.2,minigpt_v1_baseline_vocab8000_ctx64_L4,train_time_min,2.8656577865282693
+3.2,minigpt_v2_vocab2000,val_loss,4.165484428405762
+3.2,minigpt_v2_vocab2000,val_loss_per_char,1.7250390865370293
+3.2,minigpt_v2_vocab2000,n_params,1314000.0
+3.2,minigpt_v2_vocab2000,train_time_min,2.6931220213572185
+3.2,minigpt_v3_ctx128,val_loss,5.124188423156738
+3.2,minigpt_v3_ctx128,val_loss_per_char,1.586362979528537
+3.2,minigpt_v3_ctx128,n_params,2864192.0
+3.2,minigpt_v3_ctx128,train_time_min,5.536424986521403
+3.2,minigpt_v4_layers6,val_loss,5.121163845062256
+3.2,minigpt_v4_layers6,val_loss_per_char,1.585426620768563
+3.2,minigpt_v4_layers6,n_params,3251776.0
+3.2,minigpt_v4_layers6,train_time_min,3.967767031987508
+5.2,xlmr-twitter-sentiment,accuracy,1.0
+5.2,xlmr-twitter-sentiment,f1,1.0
+5.2,xlmr-twitter-sentiment,params_millions,278.045955
+5.2,xlmr-twitter-sentiment,ms_per_sample,11.638838650014804
+5.2,distilmbert-sentiments,accuracy,0.75
+5.2,distilmbert-sentiments,f1,0.7058823529411765
+5.2,distilmbert-sentiments,params_millions,135.326979
+5.2,distilmbert-sentiments,ms_per_sample,5.363336000004892
+5.2,mdeberta-zero-shot,accuracy,0.95
+5.2,mdeberta-zero-shot,f1,0.9523809523809523
+5.2,mdeberta-zero-shot,params_millions,278.811651
+5.2,mdeberta-zero-shot,ms_per_sample,57.36363195001104
+5.3,xlmr-twitter-sentiment | baseline (поріг 0.5),accuracy,1.0
+5.3,xlmr-twitter-sentiment | baseline (поріг 0.5),f1,1.0
+5.3,xlmr-twitter-sentiment | поріг 0.3,accuracy,1.0
+5.3,xlmr-twitter-sentiment | поріг 0.3,f1,1.0
+5.3,xlmr-twitter-sentiment | поріг 0.7,accuracy,1.0
+5.3,xlmr-twitter-sentiment | поріг 0.7,f1,1.0
+5.3,xlmr-twitter-sentiment | текст у нижньому регістрі,accuracy,1.0
+5.3,xlmr-twitter-sentiment | текст у нижньому регістрі,f1,1.0
+5.3,xlmr-twitter-sentiment | текст без пунктуації,accuracy,1.0
+5.3,xlmr-twitter-sentiment | текст без пунктуації,f1,1.0
